@@ -1,4 +1,8 @@
 
+html, body {
+    height: 100%;
+}
+
 
 #intro h1 {
     display: flex;
@@ -18,18 +22,46 @@
 
 #bottom {
     display: block;
-    margin-bottom: 0;
     background-color: burlywood;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#bottom #rede {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 1rem;
+}
+
+#bottom #facebook {
+    margin-left: 1rem;
+}
+
+#bottom #passarinho{
+    background-color: burlywood;
+}
+
+#bottom .rede-social {
+    display: inline;
+}
+
+#bottom p {
+    margin: 1rem;
+    padding: 0;
+}
+
+#bottom a {
+    display: inline;
+    text-decoration: none;
+    margin-left: 0.3rem;
+    margin-right: 1rem;
 }
 
 #bottom img {
     display: block;
     background-color: rgb(255, 255, 255);
     height: 35px;
-    margin: 1rem;
     border-radius: 0.5rem;
-}
-
-#bottom #passarinho{
-    background-color: burlywood;
 }
