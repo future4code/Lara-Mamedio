@@ -20,7 +20,7 @@
     margin-left: 1.5rem;
 }
 
-#estoque #tabela td, img {
+#estoque #tabela .img {
     height: 3.8rem;
 
     padding: 0.4rem;

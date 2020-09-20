@@ -4,7 +4,7 @@
     grid-template-rows: 1fr;
     grid-template-areas: 'img';
 
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 
     margin: 1.4rem 0.3rem 1.2rem 0;
 }
@@ -25,7 +25,7 @@
 
 #bio #biografia .bio h3 {
     color: brown;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #bio #biografia .bio p {
@@ -37,12 +37,12 @@
     margin-left: 1rem;
     margin-top: 0.8rem;
 
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 #bio #instituicoes h3 {
     color: brown;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 #bio #instituicoes ul {

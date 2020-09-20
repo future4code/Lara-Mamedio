@@ -1,6 +1,6 @@
 #index #projetos {
     width: auto;
-    height: auto;
+    height: 100vh;
 }
 
 #index #projetos img {
@@ -10,22 +10,24 @@
     width: 100%;
 }
 
-#index #projeto h3, b, i {
+#projeto h3, b, i {
     display: inline-block;
     margin-left: 1rem;
     margin-top: 0.3rem;
 
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     color: brown;
 }
 
-#index #projeto #proj-site ul, li, a {
+#projeto #proj-site ul, li {
     display: flex;
 
     margin-left: 0.7rem;
     margin-top: 0.3rem;
-    
-    font-size: 0.9rem;
+}
+
+#proj-site a {
+    font-size: 1.3rem;
     color: black;
     text-decoration: none;
 }
