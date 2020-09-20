@@ -8,60 +8,44 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.6rem;
+    font-size: 2rem;
 }
 
 #intro p {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     padding: 0 0.4rem;
     padding-bottom: 0.6rem;
     font-size: 1.2rem;
 }
 
-#bottom {
-    display: block;
-    background-color: burlywood;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-#bottom #rede {
-    display: flex;
+#index #img {
+    display: inline;
+    justify-content: center;
     align-items: center;
-    justify-content: left;
-    padding-bottom: 1rem;
 }
 
-#bottom #facebook {
-    margin-left: 1rem;
+#index #img p {
+    margin-left: 1.3rem;
+    font-size: 1rem;
 }
 
-#bottom #passarinho{
-    background-color: burlywood;
-}
+#index #img img {
+    height: 27rem;
 
-#bottom .rede-social {
-    display: inline;
-}
-
-#bottom p {
-    margin: 1rem;
-    padding: 0;
-}
-
-#bottom a {
-    display: inline;
-    text-decoration: none;
-    margin-left: 0.3rem;
-    margin-right: 1rem;
-}
-
-#bottom img {
-    display: block;
-    background-color: rgb(255, 255, 255);
-    height: 35px;
+    border: 0.2rem solid black;
     border-radius: 0.5rem;
-}
+
+    margin-left: 1.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+
+    align-items: center;
+    justify-content: center;
+
+    /*display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "1 3" "2 4";*/
+} 

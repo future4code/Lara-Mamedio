@@ -1,5 +1,31 @@
-/*#index #projetos {
-    background-image: url(/img/fundaIndex.jpg);
-    padding-left: 1rem;
-}*/
+#index #projetos {
+    width: auto;
+    height: auto;
+}
 
+#index #projetos img {
+    margin: 0;
+    max-height: 8rem;
+    height: auto;
+    width: 100%;
+}
+
+#index #projeto h3, b, i {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+
+    font-size: 1.2rem;
+    color: brown;
+}
+
+#index #projeto #proj-site ul, li, a {
+    display: flex;
+
+    margin-left: 0.7rem;
+    margin-top: 0.3rem;
+    
+    font-size: 0.9rem;
+    color: black;
+    text-decoration: none;
+}

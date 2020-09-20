@@ -1,0 +1,19 @@
+#contato #cont {
+    padding-bottom: 6.7rem;
+}
+
+#contato #cont label, input {
+    display: block;
+
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+}
+
+#contato #cont input[type= text] {
+    width: 10.3rem;
+}
+
+#contato #cont label {
+    font-size: 1rem;
+}
+

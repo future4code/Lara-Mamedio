@@ -1,0 +1,40 @@
+#estoque {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#todo #nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+
+    font-size: 1.5rem;
+    color: brown;
+}
+
+#todo #estoque h3 {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#estoque #tabela td, img {
+    height: 3.8rem;
+
+    padding: 0.4rem;
+}
+
+#estoque #tabela #titulo th {
+    font-size: 1.3rem;
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#estoque #tabela td {
+    text-align: center;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}

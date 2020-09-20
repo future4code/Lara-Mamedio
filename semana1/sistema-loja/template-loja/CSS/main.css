@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    background-color: rgb(255, 242, 125);
+    margin: 0;
+}
+
+#header a {
+    display: flex;
+
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 1rem;
+
+    text-align: right;
+}
+
+#bottom {
+    display: block;
+
+    width: 100%;
+
+    background-color: burlywood;
+
+    padding-top: 0.4rem;
+}
+
+#bottom #rede {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 1rem;
+}
+
+#bottom #facebook {
+    margin-left: 1rem;
+}
+
+#bottom .rede-social {
+    display: inline;
+}
+
+#bottom p {
+    margin: 1rem;
+    padding-top: 1rem;
+    padding: 0;
+    
+}
+
+#bottom a {
+    display: inline;
+    text-decoration: none;
+    margin-left: 0.3rem;
+    margin-right: 1rem;
+    color: black;
+}
+
+#bottom img {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 1.7rem;
+    border-radius: 0.3rem;
+}
