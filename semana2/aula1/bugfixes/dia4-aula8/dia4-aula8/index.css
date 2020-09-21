@@ -88,8 +88,7 @@ div img {
 }
 
 #container-para-comprar>a {
-    position: absolute;
-    top: 36.7rem;
+    display: block;
 }
 
 /**
