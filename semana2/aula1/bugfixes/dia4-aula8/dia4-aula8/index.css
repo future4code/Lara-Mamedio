@@ -106,16 +106,21 @@ table {
     width: 60%;
 }
 
+td{
+    text-align: center;
+}
+
+td img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
 td button {
     background-color: #fadf63;
     width: 150px;
     height: 30px;
     border-radius: 5px;
     color: black;
-}
-
-td{
-    text-align: center;
 }
 
 .container-do-search {
