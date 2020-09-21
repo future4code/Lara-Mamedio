@@ -1,0 +1,50 @@
+#bio #biografia {
+    display: grid;
+    grid-template-columns: 8rem auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'img';
+
+    font-size: 0.9rem;
+
+    margin: 1.4rem 0.3rem 1.2rem 0;
+}
+
+#bio #biografia img {
+    display: inline-block;
+    height: 8rem;
+    width: 6rem;
+
+    margin: 0 0.5rem 0rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+}
+
+#bio #biografia .bio {
+    margin: 0.4rem 0 0 0.3rem;
+}
+
+#bio #biografia .bio h3 {
+    color: brown;
+    font-size: 1.5rem;
+}
+
+#bio #biografia .bio p {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+#bio #instituicoes {
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+
+    font-size: 0.9rem;
+}
+
+#bio #instituicoes h3 {
+    color: brown;
+    font-size: 1.3rem;
+}
+
+#bio #instituicoes ul {
+    margin-top: 0.4rem;
+}
