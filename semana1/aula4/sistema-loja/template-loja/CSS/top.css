@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    background-color: rgb(255, 242, 125);
+    margin: 0;
+}
+
+#header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+#header a:active {
+    color: rgb(211, 75, 75);
+}

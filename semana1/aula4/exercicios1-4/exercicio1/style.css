@@ -1,0 +1,27 @@
+
+body {
+    width: 150vw;
+}
+
+.meia-tela {
+    width: 50%;
+    height: 25vh;
+    background-color: yellow;
+}
+
+.texto-importante {
+    color: red;
+}
+
+.titulo-importante {
+    color: blue;
+}
+
+
+p {
+    color: green;
+}
+
+#tela-inteira {
+    width: 100vw;
+}

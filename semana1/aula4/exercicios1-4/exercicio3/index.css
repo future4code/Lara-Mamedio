@@ -1,0 +1,43 @@
+h1 {
+    color: green;
+}
+
+#titulo-sumido {
+    display: none;
+}
+
+.paragrafo {
+    display: inline;
+    padding-top: 4px;
+    padding-right: 16px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+}
+
+button {
+    color: white;
+    display: block;
+    margin-top: 10px;
+    background-color: blue;
+}
+
+button:active {
+    background-color: greenyellow;
+    outline: greenyellow;
+    border: greenyellow;
+}
+
+button:hover {
+    color: red;
+}
+
+
+#bloco-vermelho {
+    background-color: red;
+}
+
+
+#bloco-laranja {
+    background-color: orange;
+    color: yellow;
+}
