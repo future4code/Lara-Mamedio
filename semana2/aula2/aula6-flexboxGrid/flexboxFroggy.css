@@ -1,0 +1,107 @@
+exercicio1 {
+    flex-direction: row-reverse;
+}
+
+exercicio2 {
+    justify-content: center;
+}
+
+exercicio3 {
+    justify-content: space-around;
+}
+
+exercicio4 {
+    justify-content: space-between;
+}
+
+exercicio5 {
+    align-items: flex-end;
+}
+
+exercicio6 {
+    justify-content: center;
+    align-items: center;
+}
+
+exercicio7 {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+exercicio8 {
+    flex-direction: row-reverse;
+}
+
+exercicio9 {
+    flex-direction: column;
+}
+
+exercicio10 {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+exercicio11 {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+exercicio12 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+exercicio13 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+exercicio14 {
+    order: 1;
+}
+
+exercicio15 {
+    order: -1;
+}
+
+exercicio16 {
+    align-self: flex-end
+}
+
+exercicio17 {
+    order: 1;
+    align-self: flex-end
+}
+
+exercicio18 {
+    flex-wrap: wrap;
+}
+
+exercicio19 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+exercicio20 {
+    flex-flow: column wrap;
+}
+
+exercicio21 {
+    align-content: flex-start;
+}
+
+exercicio22 {
+    align-content: flex-end;
+}
+
+exercicio23 {
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+exercicio24 {
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;
+}
