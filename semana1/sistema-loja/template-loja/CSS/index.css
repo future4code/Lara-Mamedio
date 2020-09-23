@@ -8,18 +8,51 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.6rem;
+
+    font-size: 2rem;
+
 }
 
 #intro p {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+
+    align-items: center;
+    justify-content: center;
+
     padding: 0 0.4rem;
     padding-bottom: 0.6rem;
     font-size: 1.2rem;
 }
 
+#index #img {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#index #img p {
+    margin-left: 1.3rem;
+    font-size: 1rem;
+}
+
+#index #img img {
+    height: 27rem;
+
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+
+    margin-left: 1.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+
+    align-items: center;
+    justify-content: center;
+
+    /*display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "1 3" "2 4";*/
+} 
 #bottom {
     display: block;
     background-color: burlywood;
@@ -69,3 +102,4 @@ html, body {
 #bottom #passarinho{
     background-color: burlywood;
 }
+

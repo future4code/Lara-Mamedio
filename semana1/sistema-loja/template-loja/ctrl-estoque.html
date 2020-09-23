@@ -4,71 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Controle de Estoque</title>
+
+    <title>Paraiso do Artista</title>
     <link rel="stylesheet" href="CSS/ctrl-estoque.css">
-    <link rel="stylesheet" href="CSS/top.css">
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
+    <div id="todo">
+        <div id="header">
+            <a href="index.html">Página Inicial</a>
+            <a href="ctrl-estoque.html">Controle de Estoque</a>
+            <a href="add-produto.html">Adicionar Produto</a>
+            <a href="funcionarios.html">Funcionários</a>
+        </div>
 
-    <div id="header">
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
-    </div>
-
-    <div>
-        <p>Nome da lojinha</p>
-    </div>
-
-    <h2>Controle de Estoque</h2>
-
-    <table>
-        <tr>
-            <th>Foto</th>
-            <th>Descrição</th>
-            <th>Preço (R$)</th>
-            <th>Quantidade disponível</th>
-        </tr>
-
-        <tr>
-            <td><img src="./img/caderno-de-desenho.png" alt="caderno de desenho"/></td>
-            <td> Caderno de Desenha </td>
-            <td> R$ 36,00 </td>
-            <td> 96 </td>
-        </tr>
-
-        <tr>
-            <td><img src="./img/kit-copic.png" alt="kit COPIC 6 cores"/></td>
-            <td> KIT COPIC 6 </td>
-            <td> R$ 229,00 </td>
-            <td> 33 </td>
-        </tr>
-
-        <tr>
-            <td><img src="./img/kit-aquarela.png" alt="kit aquarela 48 cores"/></td>
-            <td> KIT Aquarela 48 </td>
-            <td> R$ 142,00 </td>
-            <td> 51 </td>
-        </tr>
-
-        <tr>
-            <td><img src="./img/caneta-ponta-fina.png" alt="Caneta de ponta fina preta"/></td>
-            <td> Caneta Ponta Fina </td>
-            <td> R$ 17,00 </td>
-            <td> 164 </td>
-        </tr>
         
-        <!-- Crie mais uma linha desta tabela abaixo \/ -->
+        <div id="nome">
+            <h1><b><i>Paraiso do Artista!</i></b></h1>
+        </div>
 
-        <tr>
-            <td><img src="./img/caneta-posca.png" alt="Caneta posca"></td>
-            <td> Caneta Posca </td>
-            <td> R$ 27,00 </td>
-            <td> 97 </td>
-        </tr>
+        <div id="estoque">    
+            <h3>Controle de Estoque</h3>
 
-    </table>
+            <table border="2px" id="tabela">
+                <tr id="titulo">
+                    <th>Foto</th>
+                    <th>Descrição</th>
+                    <th>Preço (R$)</th>
+                    <th>disponível</th>
+                </tr>
+
+                <tr id="cad">
+                    <td><img class="img" src="/img/caderno-de-desenho.png" alt="caderno de desenho"/></td>
+                    <td> Caderno de Desenha </td>
+                    <td> R$ 36,00 </td>
+                    <td> 96 </td>
+                </tr>
+
+                <tr id="copic">
+                    <td><img class="img" src="/img/kit-copic.png" alt="kit COPIC 6 cores"/></td>
+                    <td> KIT COPIC 6 </td>
+                    <td> R$ 229,00 </td>
+                    <td> 33 </td>
+                </tr>
+
+                <tr id="aqua"> 
+                    <td><img class="img" src="/img/kit-aquarela.png" alt="kit aquarela 48 cores"/></td>
+                    <td> KIT Aquarela 48 </td>
+                    <td> R$ 142,00 </td>
+                    <td> 51 </td>
+                </tr>
+
+                <tr id="fina">
+                    <td><img class="img" src="/img/caneta-de-ponta-fina.png" alt="Caneta de ponta fina preta"/></td>
+                    <td> Caneta Ponta Fina </td>
+                    <td> R$ 17,00 </td>
+                    <td> 164 </td>
+                </tr>
+
+                <tr id="posca">
+                    <td><img class="img" src="/img/caneta-posca.png" alt="Caneta posca"></td>
+                    <td> Caneta Posca </td>
+                    <td> R$ 27,00 </td>
+                    <td> 97 </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="bottom">
+            <p>Siga-nos nas redes sociais!</p>
+
+            <div id="rede">
+                <img src="https://image.flaticon.com/icons/png/512/25/25305.png" id="facebook" class="rede-social">
+
+                    <a href="facebook">Meu_facebook.com</a>
+
+                <img src="https://image.flaticon.com/icons/png/512/25/25425.png" class="rede-social">
+
+                    <a href="instagram">Meu_instagram.com</a>
+
+                <img src="https://image.flaticon.com/icons/png/512/8/8800.png" id="passarinho" class="rede-social">
+                
+                    <a href="twitter">Meu_twitter.com</a>
+            </div>
+        </div>
 
 </body>
 </html>

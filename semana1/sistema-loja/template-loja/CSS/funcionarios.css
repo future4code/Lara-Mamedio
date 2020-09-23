@@ -1,0 +1,26 @@
+#funcionarios #func {
+    margin-bottom: 15.1rem;
+}
+
+#funcionarios #func #nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+
+    font-size: 1.5rem;
+    color: brown;
+}
+
+#funcionarios #func h3 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+}
+
+#funcionarios #func ul, li {
+    margin-top: 0.4rem;
+    margin-left: 0.2rem;
+    font-size: 1.2rem;
+}

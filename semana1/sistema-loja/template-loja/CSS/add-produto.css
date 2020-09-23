@@ -1,0 +1,49 @@
+#add #botton {
+    position: fixed;
+    bottom: 0;
+}
+
+#add #nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+
+    font-size: 1.5rem;
+    color: brown;
+}
+
+#add h3 {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+}
+
+#add #produto {
+    margin: 0.4rem 0 0 1.2rem;
+    padding-bottom: 10.5rem;
+}
+
+#add #produto label, input {
+    margin-top: 0.4rem;
+
+    font-size: 1.3rem;
+}
+
+#add #produto button {
+    margin-top: 0.4rem;
+
+    background-color: brown;
+    border-radius: 0.4rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+
+    font-size: 1rem;
+
+    margin-bottom: 3.63rem;
+}
+
+#add #produto button:active {
+    background-color: rgb(255, 103, 103);
+}
