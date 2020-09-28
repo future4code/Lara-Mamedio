@@ -15,13 +15,13 @@ header {
     padding: 1rem;
 }
 
-.icon {
+#icon {
     height: 1rem;
     padding: 0;
     margin: 0;
 }
 
-#icon {
+.icon {
     height: 5rem;
 
     border: 1px solid rgb(0, 0, 19);
@@ -33,6 +33,7 @@ header {
 
     font-size: 3rem;
     color: rgb(1, 1, 34);
+    cursor: default;
 
     margin: 0 auto;
 }
@@ -46,7 +47,7 @@ header {
 button {
     background-color: rgb(177, 211, 231);
 
-    padding: 0.6rem;
+    padding: 0.7rem;
     margin-left: 0.5rem;
     border: 3px solid rgb(87, 128, 146);
     border-radius: 0.4rem;
@@ -81,44 +82,113 @@ nav a:hover {
     border-bottom: 2px solid black;
 }
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 12fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+.redes {
+    font-size: 0.9rem;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1rem;
+    padding: 0.4rem 0 0.4rem 1rem;
+}
+
+#p {
+    margin-bottom: 1rem;
+
+    cursor: default;
+}
+
+#insta, #twitter, #face {
+    display: flex;
+
+    color: white;
+}
+
+.redes, #insta img, #twitter img, #face img {
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    border-radius: 0.3rem;
+
+    cursor: default;
+
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.redes, #insta p, #face p, #twitter p {
+    margin-top: 0.2rem;
+
+    cursor: default;
+}
+
+.redes, #insta a, #face a, #twitter a {
+    font-size: 1.3rem;
+    padding-top: 0.2rem;
+}
+
+#todo footer {
+    background-color: rgb(0, 8, 15);
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+    padding: 1rem;
+
+    color: white;
 }
 
 footer p {
-    grid-column: 1/3;
-    grid-row: 1;
-
     font-size: 1.3rem;
 }
 
 .rede a {
-    text-decoration: none;
-}
+    display: flex;
+    flex-direction: column;
 
-a #face {
-    grid-column-start: 2;
-    grid-row-start: 2;
+    padding: 1rem;
 
     text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
 }
 
-#twitter {
-    grid-column-start: 2;
-    grid-row-start: 3;
+@media screen and (max-width : 380px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1.5fr;
 
-    text-decoration: none;
+        width: 91.5vw;
+    }
 
-}
+    header .icon {
+        grid-column-start: 1;
+        grid-row-start: 2;
 
-#insta {
-    grid-column-start: 2;
-    grid-row-start: 4;
-}
+        height: 3rem;
+    }
 
-#whats {
-    grid-column-start: 2;
-    grid-row-start: 5;
+    .h1{
+        grid-column-start: 1;
+        grid-row-start: 1;
+
+        text-align: center;
+    }
+
+    #button {
+        grid-column-start: 1;
+        grid-row-start: 2;
+
+        padding-right: 1rem;
+    }
+
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        width: 95.6vw;
+    }
 }
