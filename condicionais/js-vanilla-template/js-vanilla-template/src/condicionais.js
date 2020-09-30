@@ -211,48 +211,50 @@
             }   
         }
 
-    }    else if (tipoDeJogo === "in") {
-            if (categoria === 1 ) {
-                console.log ("Valor do ingresso: R$", SF1 * 4.1) 
-                console.log ("Valor total: R$", (SF1 * quantidadeDeIngressos) * 4.1 )
-            }   else if (categoria === 2) {
-                console.log ("Valor do ingresso: R$", SF2 * 4.1)
-                console.log ("Valor total: R$", (SF2 * quantidadeDeIngressos) * 4.1)
-            }   else if (categoria === 3) {
-                console.log ("Valor do ingresso: R$", SF3 * 4.1)
-                console.log ("Valor total: R$", (SF3 * quantidadeDeIngressos) * 4.1)
-            }   else {
-                console.log ("Valor do ingresso: R$", SF4 * 4.1)
-                console.log ("Valor total: R$", (SF4 * quantidadeDeIngressos) * 4.1)
-            } 
+    }   else if (tipoDeJogo === "in") {
+            if (etapaDoJogo === "sf") {
+                if (categoria === 1 ) {
+                    console.log ("Valor do ingresso: R$", SF1 * 4.1) 
+                    console.log ("Valor total: R$", (SF1 * quantidadeDeIngressos) * 4.1 )
+                }   else if (categoria === 2) {
+                    console.log ("Valor do ingresso: R$", SF2 * 4.1)
+                    console.log ("Valor total: R$", (SF2 * quantidadeDeIngressos) * 4.1)
+                }   else if (categoria === 3) {
+                    console.log ("Valor do ingresso: R$", SF3)
+                    console.log ("Valor total: R$", (SF3 * quantidadeDeIngressos) * 4.1)
+                }   else {
+                    console.log ("Valor do ingresso: R$", SF4 * 4.1)
+                    console.log ("Valor total: R$", (SF4 * quantidadeDeIngressos) * 4.1)
+                } 
 
-        }   else if (etapaDoJogo === "dt") {
-            if (categoria === 1 ) {
-                console.log ("Valor do ingresso: R$", DT1 * 4.1)
-                console.log ("Valor total: R$", (DT1 * quantidadeDeIngressos) *4.1)
-            }   else if (categoria === 2) {
-                console.log ("Valor do ingresso: R$", DT2 * 4.1)
-                console.log ("Valor total: R$", (DT2 * quantidadeDeIngressos) * 4.1)
-            }   else if (categoria === 3) {
-                console.log ("Valor do ingresso: R$", DT3 * 4.1)
-                console.log ("Valor total: R$", (DT3 * quantidadeDeIngressos) * 4.1)
-            }   else {
-                console.log ("Valor do ingresso: R$", DT4 * 4.1)
-                console.log ("Valor total: R$", (DT4 * quantidadeDeIngressos) * 4.1)
-            } 
+            }   else if (etapaDoJogo === "dt") {
+                    if (categoria === 1 ) {
+                        console.log ("Valor do ingresso: R$", DT1 * 4.1)
+                        console.log ("Valor total: R$", (DT1 * quantidadeDeIngressos) *4.1)
+                    }   else if (categoria === 2) {
+                        console.log ("Valor do ingresso: R$", DT2 *4.1)
+                        console.log ("Valor total: R$", (DT2 * quantidadeDeIngressos) * 4.1)
+                    }   else if (categoria === 3) {
+                        console.log ("Valor do ingresso: R$", DT3 * 4.1)
+                        console.log ("Valor total: R$", (DT3 * quantidadeDeIngressos) * 4.1)
+                    }   else {
+                        console.log ("Valor do ingresso: R$", DT4 * 4.1)
+                        console.log ("Valor total: R$", (DT4 * quantidadeDeIngressos) * 4.1)
+                    } 
 
-        }   else if (etapaDoJogo === "fi") {
-            if (categoria === 1 ) {
-                console.log ("Valor do ingresso: R$", FI1 * 4.1)
-                console.log ("Valor total: R$", (FI1 * quantidadeDeIngressos) * 4.1)
-            }   else if (categoria === 2) {
-                console.log ("Valor do ingresso: R$", FI2 * 4.1)
-                console.log ("Valor total: R$", (FI2 * quantidadeDeIngressos) * 4.1)
-            }   else if (categoria === 3) {
-                console.log ("Valor do ingresso: R$", FI3 * 4.1)
-                console.log ("Valor total: R$", (FI3 * quantidadeDeIngressos) * 4.1)
-            }   else {
-                console.log ("Valor do ingresso: R$", FI4 * 4.1)
-                console.log ("Valor total: R$", (FI4 * quantidadeDeIngressos) * 4.1)
-            }   
-        }
+            }   else if (etapaDoJogo === "fi") {
+                    if (categoria === 1 ) {
+                        console.log ("Valor do ingresso: R$", FI1 * 4.1)
+                        console.log ("Valor total: R$", (FI1 * quantidadeDeIngressos) * 4.1)
+                    }   else if (categoria === 2) {
+                        console.log ("Valor do ingresso: R$", FI2 * 4.1)
+                        console.log ("Valor total: R$", (FI2 * quantidadeDeIngressos) * 4.1)
+                    }   else if (categoria === 3) {
+                        console.log ("Valor do ingresso: R$", FI3 * 4.1)
+                        console.log ("Valor total: R$", (FI3 * quantidadeDeIngressos) * 4.1)
+                    }   else {
+                        console.log ("Valor do ingresso: R$", FI4 * 4.1)
+                        console.log ("Valor total: R$", (FI4 * quantidadeDeIngressos) * 4.1)
+                    }  
+            } 
+    }
