@@ -1,0 +1,39 @@
+main {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+
+    margin: 1.8rem;
+}
+
+video {
+    height: 26vh;
+    margin: 0;
+    padding: 0;
+}
+
+.box-video {
+    background-color: rgb(253, 197, 197);
+
+    border: 1px solid black;
+
+    text-align: center;
+}
+
+a {
+    background-color: lavender;
+
+    display: block;
+    
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+
+    padding: 2rem;
+    margin: 0;
+}
+
+a:active {
+    background-color: cadetblue;
+}
