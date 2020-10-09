@@ -18,3 +18,13 @@
         Tanto na const "novoMontante" quanto na "segundoMontante", é chamado a função e atribuido o tipo de investimento e um valor a ser multiplicado.
         No primeiro console.log que recebe a const "novoMontante" sera impresso o valor de => 165.
         Já na segunda como o tipoDeInvestimento inserido não existe entre as possibilidades sera impresso o alert => TIPO DE INVESTIMENTO INFORMADO INCORRETO!*/
+
+    //exercício 3
+    //resposta:
+        /*No inicio de codigo é dado um array preenchido - "numeros" - e mais dois vazios - "array1" e "array2".
+        Logo após há um elemento de loop, onde se usa a condicional if... else... para divididos em duas categorias os elementos do primeiro array "numeros" em, impares e pares. Os pares são adicionados (uma copia) no "array1" e os impares ao "array2".
+        Depois há trés (3) console.log. 
+        No primeiro e impresso a quantidade de elementos do primeiro array "numeros" => Quantidade total de números 14.
+        No segundo sera impresso a quantidade de elementos no "array1" após finalização do loop => 6.
+        O terceiro sera o mesmo que o "array1" so que no "array2" => 8.
+        Ou seja, esse código serve quando se tem um conjunto com números tanto pares quanto impares juntos e misturados e você quer separa-los em novos conjuntos de pares e impares.*/
