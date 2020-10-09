@@ -28,3 +28,11 @@
         No segundo sera impresso a quantidade de elementos no "array1" após finalização do loop => 6.
         O terceiro sera o mesmo que o "array1" so que no "array2" => 8.
         Ou seja, esse código serve quando se tem um conjunto com números tanto pares quanto impares juntos e misturados e você quer separa-los em novos conjuntos de pares e impares.*/
+
+    //exercício 4
+    //resposta:
+        /*Começamos com um array chamado "numeros" e duas variaveis let uma "numero1" com valor - infinify - e outra "numero2" valor - 0.
+        Depois temos um elemento de loop for... of..., onde se tem dois if, no primeiro if, cada elemento do array "numeros" que for menor que infinito, entrara na variavel "numero1", ou seja, todos eles entraram.
+        No segundo if todos os elementos do array "numeros" que for maior que 0 entrara na variavel "numero2", ou seja o unico que não entrara na variavel sera o -10.
+        Primeiro console.log => 25, 12, 55, 64, 121, 44, 11, 84, 51, 48, 14, 73, 111, 283, 1, 99, 13, 31, 83, 131, 1, 1.1, -10, 25, 1590.
+        Segundo console.log => 25, 12, 55, 64, 121, 44, 11, 84, 51, 48, 14, 73, 111, 283, 1, 99, 13, 31, 83, 131, 1, 1.1, 25, 1590.*/
